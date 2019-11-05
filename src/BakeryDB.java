@@ -33,7 +33,7 @@ quantity - 5
 name - multi grain white bread
 price - 10.95
 expiration date - 11/11/19
-diet restrictions -gluten, dairy, eggs,say,tree nuts, sesame
+diet restrictions -gluten, dairy, eggs, soy, tree nuts, sesame
 quantity - 5
 
 name - blueberry6-pack of muffins
