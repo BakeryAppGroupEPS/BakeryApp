@@ -14,9 +14,17 @@ public class BakeryDB {
         this.bakesDB = bakesDB;
     }
 }
+public class DietRestrictions {
+    if (dietRestriction = "gluten, dairy, eggs") {
+        System.out.println("");;
+    } else if (dietRestriction = "soy, tree nuts, sesame") {
+        System.out.println("You can choose from either Naked Bread, /n Cinnamon bread, /n Rosette Cake, /n Golden Flower Cake, /n 3 Ghost Cake, /n Casino Cake, /n Little Mermaid Cake /n or Soccer Ball Cake");
+    } else {
+        System.out.println("You can now select from Multi Grain White Bread, /n Blueberry6 -pack of Muffins, /n Large Hamburger buns, /n Dozen Savory Empanadas, /n Peppermint Velvet Roll");
+    }
+}
 
 /*
-
 
 name - naked berry
 price - 27.00
