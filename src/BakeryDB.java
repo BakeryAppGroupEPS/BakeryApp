@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 
 public class BakeryDB {
-    private ArrayList<Main> bakesDB;
+    private ArrayList<BakeGoods> bakesDB;
 
     public BakeryDB() {
     }//Default constructor
 
-    public ArrayList<Main> getBakesDB() {
+    public ArrayList<BakeGoods> getBakesDB() {
         return bakesDB;
     }
 
-    public void setBakesDB(ArrayList<Main> bakesDB) {
+    public void setBakesDB(ArrayList<BakeGoods> bakesDB) {
         this.bakesDB = bakesDB;
     }
 }
