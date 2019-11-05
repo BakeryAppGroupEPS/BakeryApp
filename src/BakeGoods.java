@@ -19,11 +19,11 @@ public class BakeGoods {
         Main bakeGood8 = new Main("Dozen Savory Empanadas", 39.00, "11/06/19", "sesame, gluten, dairy", 4);
         Main bakeGood9 = new Main("Peppermint Velvet Roll", 36.95, "11/06/19", "tree nuts, peanuts, eggs", 1);
         Main bakeGood10 = new Main("Rosette One Cake", 32.00, "11/06/19", "gluten, eggs, sesame", 1);
-        Main bakeGood11 = new Main("golden flower cake", 64.00, "11/06/19", "gluten , dairy, eggs", 1);
+        Main bakeGood11 = new Main("Golden flower cake", 64.00, "11/06/19", "gluten , dairy, eggs", 1);
         Main bakeGood12 = new Main("3 ghost cake", 32.00, "11/06/19", "gluten , dairy, eggs", 2);
-        Main bakeGood13 = new Main("casino cake", 54.00, "11/08/19", "gluten , dairy, eggs", 1);
-        Main bakeGood14 = new Main("little mermaid cake", 25.00, "11/06/19", "gluten , dairy, eggs", 3);
-        Main bakeGood15 = new Main("soccer ball cake", 49.00, "11/06/19", "gluten , dairy, eggs", 2);
+        Main bakeGood13 = new Main("Casino cake", 54.00, "11/08/19", "gluten , dairy, eggs", 1);
+        Main bakeGood14 = new Main("Little mermaid cake", 25.00, "11/06/19", "gluten , dairy, eggs", 3);
+        Main bakeGood15 = new Main("Soccer ball cake", 49.00, "11/06/19", "gluten , dairy, eggs", 2);
 
         //********** Calls the arrayList from the BakeryDB class *******************//
         ArrayList<Main> bakesArrayList = new ArrayList<>();
