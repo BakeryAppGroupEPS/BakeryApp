@@ -1,10 +1,12 @@
+import java.util.Arrays;
+
 //creating public class named Main with variable names//
 public class BakeGoods {
 
     private String name;
     private double price;
     private String expirationDate;
-    private String dietRestriction;
+    private String[] dietRestriction;
     private int quantityInStock;
 
     //default constructor//
@@ -35,11 +37,11 @@ public class BakeGoods {
         this.expirationDate = expirationDate;
     }
 
-    public String getDietRestriction() {
+    public String[] getDietRestriction() {
         return dietRestriction;
     }
 
-    public void setDietRestriction(String dietRestriction) {
+    public void setDietRestriction(String[] dietRestriction) {
         this.dietRestriction = dietRestriction;
     }
 
@@ -51,7 +53,7 @@ public class BakeGoods {
         this.quantityInStock = quantityInStock;
     }
     //overloaded constructor//
-    public BakeGoods(String name, double price, String expirationDate, String dietRestriction, int quantityInStock) {
+    public BakeGoods(String name, double price, String expirationDate, String[] dietRestriction, int quantityInStock) {
         this.name = name;
         this.price = price;
         this.expirationDate = expirationDate;
@@ -59,14 +61,12 @@ public class BakeGoods {
         this.quantityInStock = quantityInStock;
     }
     public void displayText() {
-        System.out.println("Name: " + name + " Price: " + price + " Expiration date: " + expirationDate + " Quanity in stock: " + quantityInStock);
+        System.out.println("Name: " + name + " Price: " + price + " Expiration date: " + expirationDate + " Quanity in stock: " + quantityInStock + " Restrictions: " + Arrays.toString(dietRestriction));
     }
 
     public void displayWelcomeText() {
         System.out.println("Welcome to the EPS's Better Bakery App! ");
-        System.out.println("We contain peanut, gluten, soy and dairy in our products. ");
-        System.out.println("To search for foods that you can eat, please enter the name of the diet restriction: ");
-        System.out.println("To see a list of all our foods, please type all");
+        System.out.println("We contain peanut, gluten, soy, egg and dairy in our products. ");
     }
     //method to print the statement //
     static void pricing(double price) {
