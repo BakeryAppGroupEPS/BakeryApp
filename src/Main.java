@@ -58,6 +58,10 @@ public class Main {
         this.quantityInStock = quantityInStock;
     }
     public void displayText() {
+        System.out.println("Name: " + name + " Price: " + price + " Expiration date: " + expirationDate + " Quanity in stock: " + quantityInStock);
+    }
+
+    public void displayWelcomeText() {
         System.out.println("Welcome to the EPS's Better Bakery App! ");
         System.out.println("We contain peanut, gluten, soy and dairy in our products. ");
         System.out.println("To search for foods that you can eat, please enter the name of the diet restriction: ");
