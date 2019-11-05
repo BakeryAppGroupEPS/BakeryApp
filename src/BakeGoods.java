@@ -6,7 +6,7 @@ public class BakeGoods {
     public static void main(String[] args) {
 
         //Create 15 bake goods
-        Main bakeGood1 = new Main();
+        Main bakeGood1 = new Main("naked berry", );
         Main bakeGood2 = new Main();
         Main bakeGood3 = new Main();
         Main bakeGood4 = new Main();
@@ -30,7 +30,7 @@ public class BakeGoods {
         BakeryDB bakesDB = new BakeryDB();
         bakesDB.setBakesDB(bakesArrayList);
         for (Main b : bakesDB.getBakesDB()){
-            b.getDisplayText(); //still waiting for method to be created
+            b.displayText(); //still waiting for method to be created
         }
         //***********************************************************************//
 
